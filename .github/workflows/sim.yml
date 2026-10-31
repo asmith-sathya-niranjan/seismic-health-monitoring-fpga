@@ -1,0 +1,22 @@
+name: simulate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verilog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+
+      - name: Bitonic sorter self-checking testbench
+        run: make -C bitonic_sorter/sim test
+
+      - name: Syntax-check SHM designs (v2 and archived v1)
+        run: |
+          iverilog -g2005 -o /dev/null shm_system/src/top_shm_system.v
+          iverilog -g2005 -o /dev/null shm_system/archive/v1_lfsr_demo/top_shm_system.v
