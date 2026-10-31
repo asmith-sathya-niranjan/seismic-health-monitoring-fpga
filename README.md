@@ -79,13 +79,13 @@ flowchart LR
 
 ### Pins
 
-| Signal | FPGA pin | Header |
-|--------|----------|--------|
-| `servo` | J1 | JA |
-| `i2c_scl` | J2 | JA (pull-up enabled in XDC) |
-| `i2c_sda` | G2 | JA (pull-up enabled in XDC) |
-| `hx711_dout` | A14 | JB |
-| `hx711_sck` | A16 | JB |
+| Signal | FPGA pin |
+|--------|----------|
+| `servo` | J1 |
+| `i2c_scl` | J2 | 
+| `i2c_sda` | G2 | 
+| `hx711_dout` | A14 | 
+| `hx711_sck` | A16 |
 
 `btnC` is the reset button. `sw[3:0]` select what is displayed.
 
