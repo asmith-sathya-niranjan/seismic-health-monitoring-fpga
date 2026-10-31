@@ -150,3 +150,12 @@ make demo     # original sorter_tb.v: 25 10 90 5 35 70 42 8 -> 5 8 10 25 35 42 7
 ### ISE
 
 Open `bitonic_sorter/ParallelSorter.xise` in ISE 14.7. The project targets a Spartan-3E XC3S500E (-4, FG320) and uses ISim.
+
+## Authors
+
+| Name | GitHub | 
+|------|--------|
+| [Asmitha Sathya Niranjan] | [@asmith-sathya-niranjan](https://github.com/asmith-sathya-niranjan) |
+| [Harshitha Jagadish] | [@their-username](https://github.com/their-username) | 
+| [Harivallabh Ashok] | [@their-username](https://github.com/their-username) | 
+[Amrita Vishwa Vidyapeetam]
