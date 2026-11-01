@@ -156,6 +156,6 @@ Open `bitonic_sorter/ParallelSorter.xise` in ISE 14.7. The project targets a Spa
 | Name | GitHub | 
 |------|--------|
 | [Asmitha Sathya Niranjan] | [@Asmitha Sathya Niranjan](https://github.com/asmith-sathya-niranjan) |
-| [Harshitha Jagadish] | [@Harshitha Jagadish](https://github.com/their-username) | 
-| [Harivallabh Ashok] | [@Harivallabh Ashok](https://github.com/their-username) | 
+| [Harshitha Jagadish] | [@Harshitha Jagadish](https://github.com/harshithahaha) | 
+| [Harivallabh Ashok] | [@Harivallabh Ashok](https://github.com/harivallabh123) | 
 
